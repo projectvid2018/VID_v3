@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">VID_v3</string>
+    <string name="bank">Bank</string>
+    <string name="visa">Visa</string>
+    <string name="insurance">Insurance</string>
+    <string name="social">Social</string>
+    <string name="ec">EC</string>
+    <string name="nid">NID</string>
+    <string name="homeMenu">Home</string>
+    <string name="profileMenu">Profile</string>
+    <string name="settingMenu">Setting</string>
+    <string name="logoutMenu">Logout</string>
+    <string name="communicateMenu">Comunicate</string>
+    <string name="shareMenu">Share</string>
+    <string name="about_usMenu">About</string>
+    <string name="rate_usMenu">Rate Us</string>
+    <string name="feedbackMenu">Feedback</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="website">Website</string>
+    <string name="save_file">Save File</string>
+</resources>

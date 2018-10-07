@@ -1,0 +1,878 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <!-- First Line -->
+            <!--*** NID,Information and Education *** -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:clipToPadding="false"
+                android:gravity="center"
+                android:weightSum="3"
+
+                >
+                <!--*** NID *** -->
+                <android.support.v7.widget.CardView
+
+                    android:onClick="Nid"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/nidID"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    app:cardCornerRadius="25dp"
+                    app:cardBackgroundColor="@color/MediumSeaGreen"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:focusable="true">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+
+                        android:padding="10dp"
+                        >
+                        <ImageView
+                            android:layout_width="75dp"
+                            android:layout_height="75dp"
+                            android:src="@drawable/nid"
+
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="20sp"
+                            android:text="@string/nid"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            />
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+                <!--***  Education *** -->
+
+                <android.support.v7.widget.CardView
+                    android:onClick="education"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/educationId"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    app:cardCornerRadius="25dp"
+                    app:cardBackgroundColor="@color/Salmon"
+                    android:foreground="?android:attr/selectableItemBackground"
+
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        >
+                        <ImageView
+                            android:layout_width="75dp"
+                            android:layout_height="75dp"
+                            android:src="@drawable/education"
+
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="20sp"
+                            android:text="Education"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+
+                            android:textStyle="bold"
+                            />
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+                <!--*** Information  *** -->
+                <android.support.v7.widget.CardView
+                    android:onClick="Information"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/informationId"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    app:cardCornerRadius="25dp"
+                    app:cardBackgroundColor="@color/LightSkyBlue"
+                    android:foreground="?android:attr/selectableItemBackground"
+
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        >
+                        <ImageView
+                            android:layout_width="75dp"
+                            android:layout_height="75dp"
+                            android:src="@drawable/info"
+
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:textSize="18sp"
+                            android:text="Information"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+
+                            android:textStyle="bold"
+                            />
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+
+
+
+            </LinearLayout>
+
+            <!-- Second Line -->
+            <!-- *** Driving, Passport and Visa*** -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:clipToPadding="false"
+                android:gravity="center"
+                android:weightSum="3"
+
+                >
+                <!-- ** Driving ** -->
+                <android.support.v7.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/driveId"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    app:cardCornerRadius="25dp"
+                    app:cardBackgroundColor="@color/MediumSpringGreen"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:focusable="true">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="8dp"
+                        >
+                        <ImageView
+                            android:layout_width="75dp"
+                            android:layout_height="75dp"
+                            android:src="@drawable/drive"
+
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="20sp"
+                            android:text="Drive"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            />
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+                <!--  ** Passport ** -->
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/passportId"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    app:cardCornerRadius="25dp"
+                    app:cardBackgroundColor="@color/MediumAquamarine"
+                    android:foreground="?android:attr/selectableItemBackground"
+
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="8dp"
+                        >
+                        <ImageView
+                            android:layout_width="75dp"
+                            android:layout_height="75dp"
+                            android:src="@drawable/passport"
+
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="20sp"
+                            android:text="Passport"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            />
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+                <!--*** Visa  *** -->
+                <android.support.v7.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/visaId"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    app:cardBackgroundColor="@color/Turquoise"
+                    app:cardCornerRadius="25dp"
+                    android:foreground="?android:attr/selectableItemBackground"
+
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="8dp"
+
+                        >
+                        <ImageView
+                            android:layout_width="75dp"
+                            android:layout_height="75dp"
+                            android:src="@drawable/visa"
+
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:textSize="20sp"
+                            android:text="@string/visa"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            />
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+
+            </LinearLayout>
+
+            <!-- Third Line -->
+            <!-- *** Hajj, Properties and Law *** -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:clipToPadding="false"
+                android:gravity="center"
+                android:weightSum="3"
+
+                >
+                <!--*** Hajj *** -->
+                <android.support.v7.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/hajjId"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    app:cardCornerRadius="25dp"
+                    app:cardBackgroundColor="@color/Goldenrod"
+                    android:foreground="?android:attr/selectableItemBackground"
+
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+
+                        android:padding="10dp"
+                        >
+                        <ImageView
+                            android:layout_width="75dp"
+                            android:layout_height="75dp"
+                            android:src="@drawable/hajj"
+
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="20sp"
+                            android:text="Hajj"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            />
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+                <!--***  Properties *** -->
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/propertiesId"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    app:cardCornerRadius="25dp"
+                    app:cardBackgroundColor="@color/Coral"
+                    android:foreground="?android:attr/selectableItemBackground"
+
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        >
+                        <ImageView
+                            android:layout_width="75dp"
+                            android:layout_height="75dp"
+                            android:src="@drawable/properties"
+
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="20sp"
+                            android:text="Properties"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+
+                            android:textStyle="bold"
+                            />
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+                <!--*** Law  *** -->
+                <android.support.v7.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/lawId"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    app:cardCornerRadius="25dp"
+                    app:cardBackgroundColor="@color/BurlyWood"
+                    android:foreground="?android:attr/selectableItemBackground"
+
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        >
+                        <ImageView
+                            android:layout_width="75dp"
+                            android:layout_height="75dp"
+                            android:src="@drawable/law"
+
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:textSize="20sp"
+                            android:text="Law"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+
+                            android:textStyle="bold"
+                            />
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+
+
+
+            </LinearLayout>
+
+            <!-- Fourth Line -->
+            <!--  *** EC, Police and Marriage *** -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:clipToPadding="false"
+                android:gravity="center"
+                android:weightSum="3"
+
+                >
+                <!--*** EC *** -->
+                <android.support.v7.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/ecId"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    app:cardCornerRadius="25dp"
+                    app:cardBackgroundColor="@color/PowderBlue"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:focusable="true">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        >
+                        <ImageView
+                            android:layout_width="75dp"
+                            android:layout_height="75dp"
+                            android:src="@drawable/ec"
+
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="20sp"
+                            android:text="@string/ec"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            />
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+                <!--***  Police *** -->
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/policeId"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    app:cardCornerRadius="25dp"
+                    app:cardBackgroundColor="@color/Khaki"
+                    android:foreground="?android:attr/selectableItemBackground"
+
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        >
+                        <ImageView
+                            android:layout_width="75dp"
+                            android:layout_height="75dp"
+                            android:src="@drawable/police"
+
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="20sp"
+                            android:text="Police"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            />
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+                <!--*** Marriage  *** -->
+                <android.support.v7.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/marriageId"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    app:cardCornerRadius="25dp"
+                    app:cardBackgroundColor="@color/colorAccent"
+                    android:foreground="?android:attr/selectableItemBackground"
+
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        >
+                        <ImageView
+                            android:layout_width="75dp"
+                            android:layout_height="75dp"
+                            android:src="@drawable/marriage"
+
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:textSize="20sp"
+                            android:text="Marriage"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+
+                            android:textStyle="bold"
+                            />
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+
+
+
+            </LinearLayout>
+
+            <!-- Fifth Line -->
+            <!--  *** Tax, Bank and Insurance *** -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:clipToPadding="false"
+                android:gravity="center"
+                android:weightSum="3"
+
+                >
+                <!--*** TAX *** -->
+                <android.support.v7.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/taxId"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    app:cardCornerRadius="25dp"
+                    app:cardBackgroundColor="@color/LightCoral"
+                    android:foreground="?android:attr/selectableItemBackground"
+
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        >
+                        <ImageView
+                            android:layout_width="75dp"
+                            android:layout_height="75dp"
+                            android:src="@drawable/tax"
+
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="20sp"
+                            android:text="TAX"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            />
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+                <!--***  Bank *** -->
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/bankId"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    app:cardCornerRadius="25dp"
+                    app:cardBackgroundColor="@color/SandyBrown"
+                    android:foreground="?android:attr/selectableItemBackground"
+
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        >
+                        <ImageView
+                            android:layout_width="75dp"
+                            android:layout_height="75dp"
+                            android:src="@drawable/bank"
+
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="20sp"
+                            android:text="@string/bank"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            />
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+                <!--*** Insurance  *** -->
+                <android.support.v7.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/insuranceId"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    app:cardCornerRadius="25dp"
+                    app:cardBackgroundColor="@color/PaleTurquoise"
+                    android:foreground="?android:attr/selectableItemBackground"
+
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        >
+                        <ImageView
+                            android:layout_width="75dp"
+                            android:layout_height="75dp"
+                            android:src="@drawable/insurance"
+
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:textSize="20sp"
+                            android:text="Insurance"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            />
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+
+
+
+            </LinearLayout>
+
+            <!-- Sixth Line -->
+            <!-- *** Birth certificate, Social Networks and Others *** -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:clipToPadding="false"
+                android:gravity="center"
+                android:weightSum="3"
+
+                >
+                <!-- ** Birth Certificate ** -->
+                <android.support.v7.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/birthId"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    app:cardCornerRadius="25dp"
+                    app:cardBackgroundColor="@color/SkyBlue"
+                    android:foreground="?android:attr/selectableItemBackground"
+
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        >
+                        <ImageView
+                            android:layout_width="75dp"
+                            android:layout_height="75dp"
+                            android:src="@drawable/birth"
+
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="20sp"
+                            android:text="Birth"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            />
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+                <!--***  Social Networks *** -->
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/socialId"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    app:cardCornerRadius="25dp"
+                    app:cardBackgroundColor="@color/YellowGreen"
+                    android:foreground="?android:attr/selectableItemBackground"
+
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        >
+                        <ImageView
+                            android:layout_width="75dp"
+                            android:layout_height="75dp"
+                            android:src="@drawable/social"
+                            android:contentDescription="Social Networks" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="20sp"
+                            android:text="@string/social"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            />
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+                <!--*** Others  *** -->
+                <android.support.v7.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/othersId"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    app:cardCornerRadius="25dp"
+                    app:cardBackgroundColor="@color/Brown"
+                    android:foreground="?android:attr/selectableItemBackground"
+
+                    android:focusable="true">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        >
+                        <ImageView
+                            android:layout_width="75dp"
+                            android:layout_height="75dp"
+                            android:src="@drawable/others"
+
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:textSize="20sp"
+                            android:text="@string/insurance"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            />
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>
