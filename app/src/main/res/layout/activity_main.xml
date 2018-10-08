@@ -20,7 +20,10 @@
             android:id="@+id/homePageToolbarId"
             />
 
-
+        <include
+            layout="@layout/home_content"
+            android:id="@+id/homePageToolbarId"
+            />
 
     </LinearLayout>
 

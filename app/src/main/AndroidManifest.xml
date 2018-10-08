@@ -18,29 +18,49 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".vid.activity.NidActivity"
-            android:parentActivityName=".MainActivity"/>
-        <activity android:name=".vid.activity.EducationActivity"
-            android:parentActivityName=".MainActivity"/>
-        <activity android:name=".vid.activity.InformationActivity"
-            android:parentActivityName=".MainActivity"/>
-        <activity android:name=".vid.activity.DriveActivity"
-            android:parentActivityName=".MainActivity"/>
-        <activity android:name=".vid.activity.PassportActivity"
-            android:parentActivityName=".MainActivity"/>
-        <activity android:name=".vid.activity.VisaActivity"
-            android:parentActivityName=".MainActivity"/>
-        <activity android:name=".vid.activity.PropertiesActivity"
-            android:parentActivityName=".MainActivity"/>
-        <activity android:name=".vid.activity.LawActivity"
-            android:parentActivityName=".MainActivity"/>
-        <activity android:name=".navigation_activity.FileActivity"
-            android:parentActivityName=".MainActivity"/>
-        <activity android:name=".navigation_activity.AboutActivity"
-            android:parentActivityName=".MainActivity"/>
-        <activity android:name=".navigation_activity.ProfileActivity"
-            android:parentActivityName=".MainActivity"
-            ></activity>
+        <activity
+            android:name=".vid.activity.NidActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".vid.activity.EducationActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".vid.activity.InformationActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".vid.activity.DriveActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".vid.activity.PassportActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".vid.activity.VisaActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".vid.activity.PropertiesActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".vid.activity.LawActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".navigation_activity.FileActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".navigation_activity.AboutActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".navigation_activity.ProfileActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".vid.activity.HajjActivity" />
+        <activity android:name=".OthersActivity" />
+        <activity android:name=".vid.activity.EcActivity" />
+        <activity android:name=".PoliceActivity" />
+        <activity android:name=".TaxActivity" />
+        <activity android:name=".MarriageActivity" />
+        <activity android:name=".BankActivity" />
+        <activity android:name=".InsuranceActivity" />
+        <activity android:name=".BirthActivity" />
+        <activity android:name=".SocialActivity"></activity>
     </application>
 
 </manifest>
